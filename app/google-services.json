@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "964319291040",
+    "project_id": "care-pharmacy-d6ee1",
+    "storage_bucket": "care-pharmacy-d6ee1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:964319291040:android:53cab4319ddf8633df4bc5",
+        "android_client_info": {
+          "package_name": "com.uniquesolutions.carepharmacy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "964319291040-p5a3929c0tv8735rt2krh3ptc1l8h6if.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uniquesolutions.carepharmacy",
+            "certificate_hash": "8ccf15462381b4d4f12262ce73c890e6f32af89f"
+          }
+        },
+        {
+          "client_id": "964319291040-cu092562r8qjil7d7s9sjg8ac81v9ogr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7_wxzzb_zMO9fiKFPwDPg8gm2_Abj-lQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "964319291040-cu092562r8qjil7d7s9sjg8ac81v9ogr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

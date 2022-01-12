@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">CarePharmacy</string>
+
+    <string name="pref_file">com.uniquesolutions.preference_file</string>
+    <string name="pref_login_status">com.uniquesolutions.preference_login_status</string>
+    <string name="pref_rememberme_status">com.uniquesolutions.preference_rememberme</string>
+    <string name="pref_user_name">com.uniquesolutions.preference_user_name</string>
+    <string name="pref_user_password">com.uniquesolutions.preference_user_password</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Plus Pharmacy</string>
+    <string name="nav_header_subtitle">Mall Road Lhr.</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="online_pharmacy">Online\nPharmacy</string>
+    <string name="hint_search">Search for medicines...</string>
+    <string name="shop_by_category">Shop By Category</string>
+    <string name="popular_products">Popular Products</string>
+    <string name="consultation">Consulatation</string>
+    <string name="medicine">Medicines</string>
+    <string name="lab_test">Lab Tests</string>
+    <string name="health">Health</string>
+    <string name="vitamin">Vitamins</string>
+    <string name="multi_vitamin">Multi Vitamins</string>
+    <string name="price_217">RS217</string>
+    <string name="price_287">RS287</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="info_detail">jjs akhsa aksa sakshjas aksjas aksjas akshas akshas akshas
+    jha aksahshk kasa khaskha kaskhaksh kahs kashas aksh</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Medicine</string>
+    <string name="menu_slideshow">Assaan Order</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_to_basket">Add to basket</string>
+    <string name="action_settings">Settings</string>
+    <string name="upload_prescription">Upload Prescription</string>
+    <string name="blur_presc"><![CDATA[AVOID TO UPLOAD BLURED & UNCLEAR IMAGE OF PRESCRIPTION]]></string>
+    <string name="crop_presc">Do not crop any part of the prescription image</string>
+    <string name="nothing_to_show_please_make_sure_you_speak_correctly_or_search_by_keyword">Nothing To Show Please make sure the Product You Search is Typed Correctly!</string>
+</resources>

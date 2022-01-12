@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image_item_shop"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_margin="6dp"
+        android:padding="9dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/pnadol"
+        android:foreground="?attr/selectableItemBackground"
+        android:background="@drawable/bg_cart"
+        />
+
+    <TextView
+        android:id="@+id/tv_item_name_shop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/medicine"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:layout_margin="6dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/image_item_shop"
+        />
+</RelativeLayout>

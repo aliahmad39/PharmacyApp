@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="5.0"
+    tools:context=".fragments.HomeFragment">
+
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/slider"
+        android:layout_height="0dp"
+        android:layout_width="match_parent"
+        app:iss_auto_cycle="true"
+        app:iss_period="1000"
+        app:iss_delay="0"
+        app:iss_corner_radius="20"
+        android:layout_weight="1.5"
+        />
+
+    <ScrollView
+        android:id="@+id/scroll_view_menu"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/slider"
+        android:layout_weight="3.5"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:orientation="vertical">
+
+
+<!--            <com.google.android.material.textfield.TextInputLayout-->
+<!--                android:id="@+id/text_input_search_layout"-->
+<!--                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+
+<!--                android:hint="@string/hint_search"-->
+
+<!--                app:hintTextColor="@color/COLOR_1"-->
+<!--                app:startIconDrawable="@drawable/ic_search">-->
+
+<!--                <com.google.android.material.textfield.TextInputEditText-->
+<!--                    android:id="@+id/edit_text_search"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:inputType="text"-->
+<!--                    android:textColor="@color/COLOR_1" />-->
+<!--            </com.google.android.material.textfield.TextInputLayout>-->
+
+            <TextView
+                android:id="@+id/tv_shopByCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shop_by_category"
+
+                android:textColor="@color/black"
+                android:layout_marginBottom="5dp"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+                android:id="@+id/rec_home_category"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:shimmer_demo_child_count="10"
+                app:shimmer_demo_grid_child_count="2"
+                app:shimmer_demo_layout="@layout/demo_status"
+                tools:listitem="@layout/item_shop"
+                app:shimmer_demo_layout_manager_type="linear_horizontal"
+                app:shimmer_demo_angle="20"
+                />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/bg_spinner"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_margin="10dp"
+                        android:layout_weight="1"
+                        android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_upload_prescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_toLeftOf="@+id/imageView3"
+                        android:text="ORDER WITH PRESCRIPTION"
+                        android:gravity="center_horizontal"
+                        android:textColor="#FF0000"
+                        android:layout_alignParentStart="true"
+                        android:textSize="16sp"
+                        android:textStyle="bold|italic" />
+
+                    <TextView
+                        android:id="@+id/prescription_order"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_upload_prescription"
+                        android:gravity="center_horizontal"
+                        android:background="#C8C3C3"
+                        android:layout_marginTop="5dp"
+                        android:padding="2dp"
+                        android:layout_gravity="center_horizontal"
+                        android:text="UPLOAD"
+                        android:textColor="@color/black"
+                        android:textSize="16sp"
+                       />
+                    </LinearLayout>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        xmlns:app="http://schemas.android.com/apk/res-auto"
+                        android:id="@+id/profile_image"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/imageprescription"
+                        android:background="@drawable/bg_layout_camera"
+
+                       />
+                </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv_popular_products"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:text="@string/popular_products"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold|italic" />
+
+
+            <com.cooltechworks.views.shimmer.ShimmerRecyclerView
+                android:id="@+id/rec_home_device"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:shimmer_demo_child_count="10"
+                app:shimmer_demo_grid_child_count="2"
+                app:shimmer_demo_layout="@layout/demo_device"
+                tools:listitem="@layout/item_product"
+                app:shimmer_demo_layout_manager_type="linear_horizontal"
+                app:shimmer_demo_angle="20"
+                android:layout_marginBottom="20dp"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

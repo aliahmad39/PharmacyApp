@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+  >
+  />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:background="@drawable/bg_cart"
+            >
+            <TextView
+                android:id="@+id/tv_cart_catg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@+id/tv_cartname"
+                android:text="Panadol"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:layout_marginLeft="6dp"
+                android:layout_toStartOf="@+id/tv_cartstatus"/>
+            <ImageView
+                android:id="@+id/iv_cart"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_margin="6dp"
+                android:layout_centerVertical="true"
+                android:scaleType="fitXY"
+                android:background="@color/COLOR_9"
+                android:src="@drawable/pnadol"/>
+
+            <TextView
+                android:id="@+id/tv_cartname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@+id/iv_cart"
+                android:text="Panadol"
+                android:textColor="@color/black"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@+id/iv_cart" />
+            <TextView
+                android:id="@+id/tv_med_pills"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@+id/iv_cart"
+                android:text="30 pils"
+                android:layout_below="@+id/tv_cartname"
+                android:textColor="@color/black"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@+id/iv_cart" />
+
+            <TextView
+                android:id="@+id/tv_cartstatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_toStartOf="@+id/ivcartdelete"
+                android:text="Avaliable"
+                android:textColor="#FF0000"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_marginEnd="6dp"
+                android:layout_marginBottom="6dp"
+                android:background="@null"
+                android:foreground="?attr/selectableItemBackground" />
+            <TextView
+                android:id="@+id/tvcartqty"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@+id/iv_cart"
+                android:text="RS217"
+                android:layout_below="@+id/tv_med_pills"
+                android:textColor="#FF0000"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@+id/iv_cart" />
+
+
+            <TextView
+                android:id="@+id/tvcartprice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="6dp"
+                android:layout_toEndOf="@+id/iv_cart"
+                android:text="RS217"
+                android:layout_below="@+id/tvcartqty"
+                android:textColor="#FF0000"
+                android:layout_marginLeft="6dp"
+                android:layout_toRightOf="@+id/iv_cart" />
+
+
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:id="@+id/fab_cart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_baseline_add_24_white"
+                android:layout_below="@+id/tv_cartstatus"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="16dp"
+                app:tint="@color/white"
+                android:backgroundTint="@color/COLOR_8"
+                android:layout_alignParentRight="true"
+               />
+
+            <ImageView
+                android:id="@+id/ivcartdelete"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                app:srcCompat="@drawable/ic_cancel"
+                android:layout_alignParentEnd="true"
+
+
+                />
+
+
+        </RelativeLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

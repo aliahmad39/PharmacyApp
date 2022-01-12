@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_products"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="6dp"
+
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_cart"
+            android:padding="6dp"
+            >
+
+
+            <TextView
+                android:id="@+id/tv_device_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price_287"
+                android:textSize="16sp"
+                android:background="@null"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="6dp"
+                android:textColor="#FF0000"
+                android:layout_alignParentRight="true" />
+
+            <ImageView
+                android:id="@+id/image_product"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_below="@id/tv_device_status"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/vitamin"
+                 />
+
+            <TextView
+                android:id="@+id/tv_name_product"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/multi_vitamin"
+                android:textSize="16sp"
+                android:layout_below="@id/image_product"
+                android:layout_centerHorizontal="true"
+                android:textColor="@color/black"
+                />
+
+            <TextView
+                android:id="@+id/tv_device_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/price_217"
+                android:textSize="16sp"
+                android:layout_below="@id/tv_name_product"
+                android:layout_margin="6dp"
+                android:layout_centerHorizontal="true"
+                android:textColor="#FF0000"
+                />
+
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</RelativeLayout>

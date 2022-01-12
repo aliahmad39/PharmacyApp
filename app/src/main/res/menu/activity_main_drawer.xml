@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="MissingPrefix">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/homefragment"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/medicinefragment"
+            android:icon="@drawable/ic_camera"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/orderfragment"
+            android:icon="@drawable/ic_camera"
+            android:title="Orders" />
+        <item
+            android:id="@+id/prescripionorderfragment"
+            android:icon="@drawable/ic_camera"
+            android:title="Upload Prescription" />
+    </group>
+
+    <item
+        android:title="Next">
+        <menu>
+            <item
+                android:id="@+id/Logout"
+                android:icon="@drawable/ic_camera"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+</menu>
