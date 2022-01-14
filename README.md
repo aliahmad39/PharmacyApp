@@ -15,7 +15,7 @@ This app is making in keeping view of easy usage for both technical and non-tech
 
 
 # Pictures
-![This is an image](https://github.com/aliahmad39/PharmacyApp/blob/master/art/homePage.jpg)
+/art/homePage.jpg
 ![This is an image](https://github.com/aliahmad39/PharmacyApp/blob/master/art/OrderByImage.jpg)
 ![This is an image](https://github.com/aliahmad39/PharmacyApp/blob/master/art/Login.jpg)
 ![This is an image](https://github.com/aliahmad39/PharmacyApp/blob/master/art/ShoppingCart.jpg)
