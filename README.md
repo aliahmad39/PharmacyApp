@@ -15,12 +15,13 @@ This app is making in keeping view of easy usage for both technical and non-tech
 
 
 # Pictures
-/master/asset/images/electrocat.png
-![This is an image](https://github.com/aliahmad39/PharmacyApp/blob/master/asset/OrderByImage.jpg)
-![This is an image](https://github.com/aliahmad39/PharmacyApp/blob/master/art/Login.jpg)
-![This is an image](https://github.com/aliahmad39/PharmacyApp/blob/master/art/ShoppingCart.jpg)
-![This is an image](https://github.com/aliahmad39/PharmacyApp/blob/master/art/ProductList.jpg)
-![This is an image](https://github.com/aliahmad39/PharmacyApp/blob/master/art/SearchByVoice.jpg)
-![This is an image](https://github.com/aliahmad39/PharmacyApp/blob/master/art/SearchByName.jpg)
-![This is an image](https://github.com/aliahmad39/PharmacyApp/blob/master/art/UpdateProfile.jpg)
-![This is an image](https://github.com/aliahmad39/PharmacyApp/blob/master/art/OrderForm.jpg)
+<img src="(https://github.com/aliahmad39/PharmacyApp/blob/master/asset/homePage.jpg" width="150" height="280">
+<img src="(https://github.com/aliahmad39/PharmacyApp/blob/master/asset/Login.jpg" width="150" height="280">
+<img src="(https://github.com/aliahmad39/PharmacyApp/blob/master/asset/OrderByImage.jpg" width="150" height="280">
+<img src="(https://github.com/aliahmad39/PharmacyApp/blob/master/asset/OrderForm.jpg" width="150" height="280">
+<img src="(https://github.com/aliahmad39/PharmacyApp/blob/master/asset/ProductList.jpg" width="150" height="280">
+<img src="(https://github.com/aliahmad39/PharmacyApp/blob/master/asset/SearchByName.jpg" width="150" height="280">
+<img src="(https://github.com/aliahmad39/PharmacyApp/blob/master/asset/SearchByVoice.jpg" width="150" height="280">
+<img src="(https://github.com/aliahmad39/PharmacyApp/blob/master/asset/ShoppingCart.jpg" width="150" height="280">
+<img src="(https://github.com/aliahmad39/PharmacyApp/blob/master/asset/UpdateProfile.jpg" width="150" height="280">
+
